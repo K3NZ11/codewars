@@ -1,10 +1,13 @@
 {
+    // Editor
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
-    "prettier.tabWidth": 4,
     "editor.tabSize": 4,
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
         "source.organizeImports": true
     },
+
+    // Javascript
     "javascript.preferences.importModuleSpecifierEnding": "js"
 }

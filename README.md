@@ -2,22 +2,26 @@
 
 ---
 
-> :warning: Before viewing any solution, I would recommend you to try and solve the kata yourself first. It also worth noting that all the solutions here **ARE NOT THE BEST POSSIBLE SOLUTIONS**. These are the best solutions that I could come up with, so feel free to create a [`Pull Request`](https://github.com/K3NZ11/codewars/pulls) if you have any suggestion.
+> :warning: Before viewing any solution, I would recommend you to try and solve
+> the kata yourself first. It also worth noting that all the solutions here
+> **ARE NOT THE BEST POSSIBLE SOLUTIONS**. These are the best solutions that I
+> could come up with, so feel free to create a
+> [`Pull Request`](https://github.com/K3NZ11/codewars/pulls) if you have any
+> suggestion.
 
 ## Get Started
 
-`npm run create -- <slug | id>`
-Generate both solution and test files.
+`npm run create -- <slug | id>` Generate both solution and test files.
 
 -   solutions/[rank]/[slug].cjs
 -   tests/[rank]/[slug].test.cjs
 
-`npm run test`
-Run all files under `tests/` directory ending with `.test.cjs`
+`npm run test` Run all files under `tests/` directory ending with `.test.cjs`
 
 ## VSCode
 
-If you are using `Visual Studio Code` as your text editor, there are a few code snippets that you can use.
+If you are using `Visual Studio Code` as your text editor, there are a few code
+snippets that you can use.
 
 `cws`
 
