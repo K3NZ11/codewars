@@ -8,7 +8,9 @@
             " * @param {$2} ${3:args}",
             " * @returns",
             " */",
-            "const ${4:methodName} = (${3:args}) => {};",
+            "const ${4:methodName} = (${3:args}) => {",
+            "\t$0",
+            "};",
             "\nmodule.exports = ${4:methodName};\n"
         ]
     },
@@ -19,7 +21,7 @@
             "const assert = require(\"assert\");",
             "const ${1:methodName} = require(\"../../solutions/${RELATIVE_FILEPATH/tests\\\\([0-9]kyu)(\\\\)(.*).test.cjs/${1}\\/${3}.cjs/}\");",
             "\ndescribe(\"${TM_FILENAME}\", () => {",
-            "\tconst testCases = { \"${2:test case title}\": [{ input: [], expected: 0 }] };\n",
+            "\tconst testCases = { \"${2:basic tests}\": [{ input: [], expected: 0 }] };\n",
             "\tObject.entries(testCases).forEach(([title, cases]) => {",
             "\t\tit(title, () => {",
             "\t\t\tcases.forEach(({ input, expected }) => {",
