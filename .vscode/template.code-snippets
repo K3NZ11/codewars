@@ -21,7 +21,7 @@
             "const assert = require(\"assert\");",
             "const ${1:methodName} = require(\"../../solutions/${RELATIVE_FILEPATH/tests\\\\([0-9]kyu)(\\\\)(.*).test.cjs/${1}\\/${3}.cjs/}\");",
             "\ndescribe(\"${TM_FILENAME}\", () => {",
-            "\tconst testCases = { \"${2:basic tests}\": [{ input: [], expected: 0 }] };\n",
+            "\tconst testCases = { \"${2:basic tests}\": [{ input: [$0], expected: 0 }] };\n",
             "\tObject.entries(testCases).forEach(([title, cases]) => {",
             "\t\tit(title, () => {",
             "\t\t\tcases.forEach(({ input, expected }) => {",
