@@ -1,0 +1,4 @@
+{
+    "*.test.cjs": "nyc mocha",
+    "*.{cjs,mjs,json,md}": "prettier --write"
+}

@@ -4,7 +4,8 @@
     "description": "A list of solutions for codewars kata",
     "scripts": {
         "test": "nyc mocha ./tests/**/*.test.cjs",
-        "create": "node ./scripts/create.mjs"
+        "create": "node ./scripts/create.mjs",
+        "prepare": "husky install"
     },
     "author": "Kenzii",
     "engines": {
@@ -17,6 +18,8 @@
         "nyc": "^15.1.0"
     },
     "devDependencies": {
+        "husky": "^8.0.0",
+        "lint-staged": "^13.0.3",
         "prettier": "^2.7.1"
     }
 }
