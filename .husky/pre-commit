@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+# Fix loading animation not working properly on Windows
+# @see https://github.com/okonet/lint-staged/issues/1145#issuecomment-1133910581
+# @see https://github.com/typicode/husky/issues/968#issuecomment-1176848345
+exec >/dev/tty 2>&1
+
 npx lint-staged
